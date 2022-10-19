@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    background-image: linear-gradient(to right, mediumslateblue, rgba(2, 217, 255, 0.8));
+    width: 100vw;
+    height: 80vh;
+}
+
+.navBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    color: snow;
+    padding: 25px 0px 50px 0px;
+}
+
+.title{
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.navlinks{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color: snow;
+}
+
+.navlinks li{
+    margin-left: 25px;
+    padding: 10px;
+}
+
+.navlinks li:hover{
+    background-image: linear-gradient(to right, rgba(125, 103, 247, 0.7), rgba(2, 217, 255, 1));
+    border-radius: 10px;
+}
+
+.profile{
+    display: flex;
+    width: 65%;
+    margin: auto;
+    background-color: snow;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px 0px;
+}
+
+.image{
+    border-radius: 10px;
+    width: 30vw;
+    height: 70vh;
+    box-shadow: 0px 5px 15px 0px;
+}
+
+.details{
+    width: 35%;
+    padding: 50px 0px 50px 0px;
+    margin-left: 10%;
+}
+
+.hello{
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: gray;
+}
+
+.name{
+    text-transform: uppercase;
+}
+
+.profession{
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 10px 0px 10px 0px;
+}
+
+.bio{
+    font-size: 15px;
+    font-weight: 450;
+    letter-spacing: 1px;
+}
+
+.infos{
+    margin-top: 10%;
+    margin-bottom: 50px;
+}
+
+.icon{
+    margin-right: 10px;
+}
+
+.calender, .email, .call, .home{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.facebook, .twitter, .linkedin{
+    margin-right: 10px;
+    cursor: pointer;
+}
